@@ -37,7 +37,7 @@ Modify the host and port variables in the keylogger script with the IP address a
 Run the keylogger script:
 
    ```bash
-   python keylogger.py
+   python victim.py
 ```
 2. Start the Server
 
