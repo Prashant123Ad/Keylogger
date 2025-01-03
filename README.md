@@ -28,4 +28,13 @@ This Python script is a basic keylogger that captures keyboard events (key press
     ```bash
    pip install keyboard
 
+Usage
+1. Start the Keylogger
+Modify the host and port variables in the keylogger script with the IP address and port of your server.
+Run the keylogger script:
+ ```bash
+   python keylogger.py
+
+
+
 
