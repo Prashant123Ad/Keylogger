@@ -29,12 +29,32 @@ This Python script is a basic keylogger that captures keyboard events (key press
    pip install keyboard
 
 Usage
+
 1. Start the Keylogger
+
 Modify the host and port variables in the keylogger script with the IP address and port of your server.
+
 Run the keylogger script:
- ```bash
+
+   ```bash
    python keylogger.py
+```
+2. Start the Server
 
+Run the server script to receive keystrokes:
 
+```bash
+python server.py
+```
 
+The keylogger will start capturing and sending the keystrokes to the server.
+Stop the Keylogger
 
+3. Press the "Esc" key to stop logging and terminate the keylogger.
+Disclaimer
+
+This keylogger is for educational purposes only. Unauthorized use of keyloggers is illegal and unethical. Always obtain explicit consent from users before monitoring any device or system. Misuse of this code can have serious legal consequences.
+
+License
+
+This project is open-source. You are free to use, modify, and distribute it for educational purposes, but you must respect privacy and legal guidelines.
